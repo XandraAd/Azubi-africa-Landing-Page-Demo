@@ -1,0 +1,64 @@
+.description-section {
+  height: 212px;
+  background-color: #2e5180;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.description-section div {
+  width: 90%;
+  display: grid;
+  margin-top: 1rem;
+  padding: 1rem;
+  
+}
+
+.description-section div p {
+  font-size: 16px;
+}
+
+.description-section div h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+
+
+/*MOBILE AND TABLET SCREEN*/
+@media screen and (min-width: 450px) and (max-width: 899px) {
+  .description-section div {
+    display: grid;
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+
+  .description-section div p {
+   margin-top: 1rem;
+  }
+
+  .description-section div h2 {
+    font-size: 32px;
+  }
+}
+
+ 
+
+/*LAPTOP SCREEN*/
+@media screen and (min-width: 900px) {
+  .description-section div {
+    display: grid;
+    margin-top: 1rem;
+  }
+
+  .description-section div p {
+    font-size: 24px;
+    margin-top: 1rem;
+  }
+
+  .description-section div h2 {
+    font-size: 36px;
+  }
+}
