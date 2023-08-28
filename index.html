@@ -11,10 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./asset/css/heroSection.css" />
     <link rel="stylesheet" type="text/css" href="./asset/css/desc.css">
     <link rel="stylesheet" type="text/css" href="./asset/css/feature.css">
-
-
-
-    <title>
+<title>
       Azubi Africa | Tailor made Cloud Engineering, Fronend-End Developer and
       Data Analytics Courses |
     </title>
@@ -158,7 +155,8 @@
         </div>
         </div>
       </section>
-      <section class="contact-us" >
+      <!--CONTACT SECTION-->
+      <section class="contact-us" id="contact">
         <div class="contact-us-headings" >
             <h2 >Contact Us</h2>
             <br>
@@ -169,17 +167,16 @@
           </div>
           <form action="submit" method="get" class="form-section">
             <div class="form-group">
-              
+              <label for="name"> <span class="sr-only">Name</span></label>
               <input type="text" name="name" id="name" placeholder="Name" />
             </div>
-          
             <div class="form-group">
-              
+              <label for="email"> <span class="sr-only">Email</span></label>
               <input type="email" name="email" id="email" placeholder="Email" />
             </div>
           
             <div class="form-group">
-              
+              <label for="message"> <span class="sr-only">Message</span></label>
               <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
             </div>
           
@@ -197,8 +194,9 @@
             <div class="footer-logo">
               <img src="./asset/images/Footer_logo.png" alt="" >
           </div>
+          
           <div class="location_container">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <g clip-path="url(#clip0_26_77)">
                     <path d="M17.5 8.33325C17.5 14.1666 10 19.1666 10 19.1666C10 19.1666 2.5 14.1666 2.5 8.33325C2.5 6.34413 3.29018 4.43647 4.6967 3.02995C6.10322 1.62343 8.01088 0.833252 10 0.833252C11.9891 0.833252 13.8968 1.62343 15.3033 3.02995C16.7098 4.43647 17.5 6.34413 17.5 8.33325Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M10 10.8333C11.3807 10.8333 12.5 9.71396 12.5 8.33325C12.5 6.95254 11.3807 5.83325 10 5.83325C8.61929 5.83325 7.5 6.95254 7.5 8.33325C7.5 9.71396 8.61929 10.8333 10 10.8333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -209,6 +207,7 @@
                     </clipPath>
                   </defs>
                 </svg>
+              
                 <p>Reiss Jct Rd,
                   North Legon- Accra - Ghana</p>
           </div>
